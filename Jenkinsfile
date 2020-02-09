@@ -1,5 +1,5 @@
 pipeline {
-	agent { label "kubernetes" }
+	agent { label "kubectl" }
 	stages {
 		stage ("Build") {
 			steps {
