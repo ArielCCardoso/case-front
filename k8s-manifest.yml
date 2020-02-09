@@ -23,7 +23,7 @@ spec:
       name: cb-front
     spec:
       containers:
-      - image: image_version
+      - image: arielccardoso/image_version
         imagePullPolicy: Always
         name: cb-front
         resources:

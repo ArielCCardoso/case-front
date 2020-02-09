@@ -4,7 +4,8 @@ pipeline {
 		stage ("Build") {
 			steps {
 				dir(WORKSPACE){
-					dockerBuild steps:this
+					//dockerBuild steps:this
+                    sh 'echo skip'
 				}
 			}
 		}
